@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milwing Store | Premium Services Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="noise-bg"></div>
+
+    <div class="loader-container" id="loader">
+        <div class="loader-content">
+            <div class="loader-logo">
+                <i class="fas fa-bolt"></i>
+            </div>
+            <div class="loader-text">Milwing Store</div>
+            <div class="loader-spinner"></div>
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">Milwing<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#hero" class="active">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+            <div class="nav-cta">
+                <button class="btn btn-secondary order-trigger-btn" data-service="Konsultasi Umum"><i class="fab fa-whatsapp"></i> Chat Us</button>
+            </div>
+            <button class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <section id="hero" class="hero-section">
+        <div class="hero-glow-1"></div>
+        <div class="hero-glow-2"></div>
+        <div class="container hero-content">
+            <span class="badge scroll-reveal">Next-Gen Digital Hub</span>
+            <h1 class="scroll-reveal">Elevate Your Digital Ecosystem Presence</h1>
+            <p class="scroll-reveal">Kami menyediakan layanan premium mulai dari pengembangan server, website eksklusif, hingga optimasi bisnis digital dengan sentuhan profesional modern.</p>
+            <div class="hero-buttons scroll-reveal">
+                <a href="#services" class="btn btn-primary">Explore Services <i class="fas fa-arrow-right"></i></a>
+                <a href="https://discord.gg/gBcGF6D6f" target="_blank" class="btn btn-outline"><i class="fab fa-discord"></i> Join Discord</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header scroll-reveal">
+                <h2>Our Premium Services</h2>
+                <p>Solusi digital terbaik yang dirancang khusus untuk kebutuhan personal maupun bisnis Anda.</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card scroll-reveal">
+                    <div class="card-icon"><i class="fab fa-discord"></i></div>
+                    <h3>Build Server Discord</h3>
+                    <p>Setup server komunitas atau bisnis profesional lengkap dengan bot custom, auto-role, dan sistem keamanan tingkat tinggi.</p>
+                    <button class="btn btn-card-order order-trigger-btn" data-service="Build Server Discord">Order Service <i class="fas fa-shopping-cart"></i></button>
+                </div>
+                <div class="service-card scroll-reveal">
+                    <div class="card-icon"><i class="fas fa-code"></i></div>
+                    <h3>Website Premium</h3>
+                    <p>Pembuatan landing page, company profile, atau web app custom dengan performa tinggi, clean code, dan desain futuristik.</p>
+                    <button class="btn btn-card-order order-trigger-btn" data-service="Website Premium">Order Service <i class="fas fa-shopping-cart"></i></button>
+                </div>
+                <div class="service-card scroll-reveal">
+                    <div class="card-icon"><i class="fas fa-exchange-alt"></i></div>
+                    <h3>Convert / Tukar Saldo</h3>
+                    <p>Layanan penukaran saldo antar e-wallet dan bank dengan rate bersaing, proses transparan, instan, dan aman terpercaya.</p>
+                    <button class="btn btn-card-order order-trigger-btn" data-service="Convert / Tukar Saldo">Order Service <i class="fas fa-shopping-cart"></i></button>
+                </div>
+                <div class="service-card scroll-reveal">
+                    <div class="card-icon"><i class="fab fa-whatsapp"></i></div>
+                    <h3>Blast WhatsApp</h3>
+                    <p>Web Perpesan 900p dan 700p
+                    min wd 25k dan 20k cus chat sekarang mumpung free</p>
+                    <button class="btn btn-card-order order-trigger-btn" data-service="Blast WhatsApp">Order Service <i class="fas fa-shopping-cart"></i></button>
+                </div>
+                <div class="service-card scroll-reveal">
+                    <div class="card-icon"><i class="fas fa-user-shield"></i></div>
+                    <h3>Akun Premium Sosmed</h3>
+                    <p>Tersedia berbagai akun premium sosmed dan hiburan seperti Spotify Premium, Netflix, YouTube Premium, Canva Pro, CapCut Pro, Vidio, Disney+, dan lainnya. Harga terjangkau, proses cepat, aman, dan siap pakai.</p>
+                    <button class="btn btn-card-order order-trigger-btn" data-service="Akun Premium Sosmed">Order Service <i class="fas fa-shopping-cart"></i></button>
+                </div>
+                <div class="service-card scroll-reveal">
+                    <div class="card-icon"><i class="fas fa-cubes"></i></div>
+                    <h3>Job Gmail</h3>
+                    <p>Bokek?,Buat Gmail aja 1 gmail 2k harga bisa berubah cus langsung bikin</p>
+                    <button class="btn btn-card-order order-trigger-btn" data-service="Layanan Digital Lainnya">Buat Gmail <i class="fas fa-shopping-cart"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing-section">
+        <div class="container">
+            <div class="section-header scroll-reveal">
+                <h2>Flexible Pricing Plan</h2>
+                <p>Pilih paket layanan yang paling sesuai dengan target dan skala bisnis Anda.</p>
+            </div>
+
+            <div class="pricing-grid">
+                <div class="price-card scroll-reveal">
+                    <div class="price-header">
+                        <h3>Apk Bioskop murah</h3>
+                        <div class="price">IDR 3k<span>/project</span></div>
+                    </div>
+                    <ul class="price-features">
+                        <li><i class="fas fa-check"></i> Nonton Film free sepuasnya</li>
+                        <li><i class="fas fa-check"></i> Anime lengkap</li>
+                        <li><i class="fas fa-check"></i> Anime 18+</li>
+                        <li class="disabled"><i class="fas fa-times"></i> Film Barat</li>
+                        <li class="disabled"><i class="fas fa-times"></i> Garansi 14 Hari</li>
+                    </ul>
+                    <button class="btn btn-outline btn-full order-trigger-btn" data-service="Pricing Plan: Starter Pack (IDR 3)">Order Now</button>
+                </div>
+
+                <div class="price-card popular scroll-reveal">
+                    <div class="popular-tag">Most Popular</div>
+                    <div class="price-header">
+                        <h3>Apk winkit pro+BeautyPlus Unlimited</h3>
+                        <div class="price">IDR 15k<span>/project</span></div>
+                    </div>
+                    <ul class="price-features">
+                        <li><i class="fas fa-check"></i> Hd in foto menjadi 4K</li>
+                        <li><i class="fas fa-check"></i> Free Unlimited 1 tahun</li>
+                        <li><i class="fas fa-check"></i> Buat jj jadi HD</li>
+                        <li><i class="fas fa-check"></i> 14 Hari Masa Garansi</li>
+                        <li><i class="fas fa-check"></i> Dll bisa chat aja</li>
+                    </ul>
+                    <button class="btn btn-primary btn-full order-trigger-btn" data-service="Pricing Plan: Apk wink pro Unlimited +BeautyPlus Unlimited (IDR )">Order Now</button>
+                </div>
+
+                <div class="price-card scroll-reveal">
+                    <div class="price-header">
+                        <h3>Enterprise</h3>
+                        <div class="price">Custom<span>/deal</span></div>
+                    </div>
+                    <ul class="price-features">
+                        <li><i class="fas fa-check"></i> Custom Application / Web</li>
+                        <li><i class="fas fa-check"></i> Dedicated Developer Space</li>
+                        <li><i class="fas fa-check"></i> Unlimited Integrasi API</li>
+                        <li><i class="fas fa-check"></i> Lifetime Bug Fix Guarantee</li>
+                        <li><i class="fas fa-check"></i> 24/7 Priority VIP Line</li>
+                    </ul>
+                    <button class="btn btn-outline btn-full order-trigger-btn" data-service="Pricing Plan: Enterprise Custom">Contact Us</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial-section">
+        <div class="container">
+            <div class="section-header scroll-reveal">
+                <h2>What They Say</h2>
+                <p>Ulasan jujur dari klien yang telah mempercayakan proyek digitalnya kepada kami.</p>
+            </div>
+
+            <div class="testimonial-slider scroll-reveal">
+                <div class="testi-card">
+                    <div class="testi-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"Server Discord komunitas gaming saya jadi rapih banget dan interaktif berkat bot custom-nya. Proses pengerjaan super cepat!"</p>
+                    <div class="testi-user">
+                        <div class="user-info">
+                            <h4>Rian Setiawan</h4>
+                            <span>Community Manager</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testi-card">
+                    <div class="testi-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"Landing page bisnis saya kelihatan mewah dan responsif banget di HP. Efek glassmorphism-nya bikin konversi jualan naik."</p>
+                    <div class="testi-user">
+                        <div class="user-info">
+                            <h4>Amanda Putri</h4>
+                            <span>Agency Owner</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <div class="section-header scroll-reveal">
+                <h2>Frequently Asked Questions</h2>
+                <p>Punya pertanyaan? Cari tahu jawabannya di bawah ini.</p>
+            </div>
+
+            <div class="faq-container">
+                <div class="faq-item scroll-reveal">
+                    <div class="faq-question">
+                        <span>Bagaimana sistem pembayaran di Milwing Store?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <p>Kami menerima pembayaran melalui transfer Bank, QRIS, dan e-wallet utama seperti DANA, OVO, dan GoPay. Pembayaran bisa dilakukan full di awal atau menggunakan sistem DP (Down Payment) sesuai kesepakatan.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item scroll-reveal">
+                    <div class="faq-question">
+                        <span>Ada testimoni?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <p>Ada dong teatimoni banyak cek saluran sekarang!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item scroll-reveal">
+                    <div class="faq-question">
+                        <span>Apakah ada garansi jika terjadi error?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <p>Tentu saja. Setiap layanan memiliki masa garansi yang bervariasi mulai dari 3 hari hingga lifetime support untuk menangani kendala teknis atau bug yang muncul setelah project selesai.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal-overlay" id="orderModal">
+        <div class="modal-window">
+            <button class="modal-close" id="closeModal">&times;</button>
+            <div class="modal-header">
+                <h3>Select Order Gateway</h3>
+                <p>Pilih rute komunikasi admin untuk memproses: <br><strong id="modalServiceTarget" style="color: var(--neon-purple);">Layanan</strong></p>
+            </div>
+            <div class="modal-gateways">
+                <a href="https://discord.gg/gBcGF6D6f" target="_blank" class="gateway-card discord-gateway">
+                    <div class="gateway-icon"><i class="fab fa-discord"></i></div>
+                    <div class="gateway-info">
+                        <h4>Discord Community</h4>
+                        <span>Buka Tiket Order Otomatis</span>
+                    </div>
+                    <i class="fas fa-chevron-right arrow-target"></i>
+                </a>
+
+                <a href="#" target="_blank" id="waAdmin1" class="gateway-card whatsapp-gateway">
+                    <div class="gateway-icon"><i class="fab fa-whatsapp"></i></div>
+                    <div class="gateway-info">
+                        <h4>WhatsApp Admin 1</h4>
+                        <span>Contact Persona: <strong>dikz</strong></span>
+                    </div>
+                    <i class="fas fa-chevron-right arrow-target"></i>
+                </a>
+
+                <a href="#" target="_blank" id="waAdmin2" class="gateway-card whatsapp-gateway">
+                    <div class="gateway-icon"><i class="fab fa-whatsapp"></i></div>
+                    <div class="gateway-info">
+                        <h4>WhatsApp Admin 2</h4>
+                        <span>Contact Persona: <strong>raynoxz</strong></span>
+                    </div>
+                    <i class="fas fa-chevron-right arrow-target"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-info">
+                <a href="#" class="nav-logo">Milwing<span>.</span></a>
+                <p>Menyediakan layanan ekosistem digital premium dengan standar kualitas developer global modern.</p>
+                <div class="footer-socials">
+                    <button class="order-trigger-btn" data-service="Sosmed Hub Footer" style="background:none;border:none;cursor:pointer;"><a style="pointer-events:none;"><i class="fab fa-whatsapp"></i></a></button>
+                    <a href="https://discord.gg/gBcGF6D6f" target="_blank"><i class="fab fa-discord"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Milwing Store. Built with precision.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
